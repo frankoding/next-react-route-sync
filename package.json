@@ -1,0 +1,33 @@
+{
+  "name": "next-react-route-sync",
+  "version": "1.0.0",
+  "description": "A custom hook for Next.js and React Router integration, allowing seamless synchronization of route changes between the two technologies.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup src/index.js --file dist/index.js --format cjs"
+  },
+  "keywords": [
+    "Next.js",
+    "Next",
+    "React Router",
+    "React",
+    "react-router-dom",
+    "Route Sync",
+    "Custom Hook",
+    "Integration"
+  ],
+  "author": "frankoding",
+  "license": "ISC",
+  "dependencies": {
+    "next": "13.4.9",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "5.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankoding/next-react-route-sync"
+  },
+  "homepage": "https://github.com/frankoding/next-react-route-sync#readme"
+}
